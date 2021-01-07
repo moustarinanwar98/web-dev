@@ -1,0 +1,376 @@
+
+    scroll-behavior: smooth;
+}
+
+body{
+
+    margin: 0;
+    font-family: Montserrat;
+    
+}
+
+
+
+
+
+.navbar ul a{
+
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    transition: all .3s;
+    
+}
+.navbar ul a:hover{
+
+    font-size: 25px;
+    color: #47b4ce;
+    
+}
+
+.navbar ul{
+
+    display: flex;
+    list-style-type: none;
+    margin-left: 70%;
+   
+    
+
+   
+}
+
+.navbar ul li {
+
+    padding:25px 20px;
+}
+
+.name-highlight{
+
+    color: #47b4ce;
+}
+
+section{
+    
+
+    height: 1000px;
+  
+   
+}
+
+
+
+.half-width{
+
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 30px;
+  
+  
+}
+.half-width h1{
+
+    font-family: Montserrat;
+    font-size: 50px;
+}
+.half-width p{
+
+    font-family: Montserrat;
+    font-size: 20px;
+    
+}
+.half-width img{
+
+    width: 100%;
+   margin-left:25% ;
+   
+}
+.half-width button{
+
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: bold;
+    background:#47b4ce;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: all .3s;
+    box-sizing: border-box;
+    box-shadow: black;
+    cursor: pointer;
+}
+.half-width button a{
+
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.half-width button a:hover{
+
+    color: rgb(0, 0, 0);
+}
+.about h1{
+
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 900;
+    text-align: left;
+}
+.aboutme{
+
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.aboutme img{
+
+    width: 100%;
+    margin-right:25% ;
+}
+.aboutme h1{
+
+
+    font-family: Montserrat;
+    font-size: 40px;
+    margin-top: 100px;
+    color: #47b4ce;
+}
+.aboutme h2{
+
+
+    font-family: Montserrat;
+    font-size: 35px;
+    margin-top: 80px;
+}
+.aboutme p{
+
+    font-family: Montserrat;
+    font-size: 20px;
+    
+}
+.aboutme highlight{
+    
+
+    color: #47b4ce;
+}
+.aboutme button{
+
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: bold;
+    background:#47b4ce;
+    border: none;
+    color: wheat;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: all .3s;
+    box-sizing: border-box;
+    box-shadow: black;
+    cursor: pointer;
+}
+.aboutme button a{
+
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.aboutme button a:hover{
+
+    color: rgb(0, 0, 0);
+}
+
+
+
+.work h1{
+
+    font-size: 35px;
+    font-family: Montserrat;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: #47b4ce;
+}
+
+
+.project{
+
+   margin: 5%;
+   padding-left: 80px;
+   height: 700px;
+}
+
+.recent-projects {
+
+    width: 25%;
+    float: left;
+    margin: 3% ;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 450px;
+}
+
+.recent-projects img{
+
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.recent-projects p{
+
+    text-align: left;
+    font-size: 12px;
+    font-family: Montserrat;
+}
+ .recent-projects h1{
+
+    font-size: 20px;
+    font-family: Montserrat;
+    text-align: left;
+ }
+ .blog h1{
+
+    font-size: 35px;
+    font-family: Montserrat;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: #47b4ce;
+}
+
+
+.blog-section{
+
+   margin: 5%;
+   padding-left: 80px;
+   height: 700px;
+}
+
+.blogs{
+
+    width: 25%;
+    float: left;
+    margin: 3% ;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 450px;
+}
+
+.blogs img{
+
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.blogs p{
+
+    text-align: left;
+    font-size: 12px;
+    font-family: Montserrat;
+}
+ .blogs h1{
+
+    font-size: 20px;
+    font-family: Montserrat;
+    text-align: left;
+ }
+
+.container{
+
+    height: 400px;
+}
+ .work-inquiry{
+
+    width: 900px;
+    height: 300px;
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: 900px 300px;
+    object-fit: cover;
+    margin: 3% auto;
+    
+   
+  
+ }
+ .inquiry{
+
+    width: 40%;
+    float: left;
+    margin: 3%;
+  
+ }
+ .inquiry h1{
+
+        font-size: 40px;
+        font-family: Montserrat;
+        font-weight: 900;
+        text-align: left;
+        text-transform: uppercase;
+        margin-top:30% ;
+        color: white;
+        
+ }
+ .inquiry button {
+ 
+    margin-left: 50%;
+    margin-top: 33%;
+    
+  
+ 
+ }
+
+ .btn{ 
+
+    padding: 10px 50px;
+    background:#9dca06;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ 
+ .inquiry a{
+
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 800;
+        color: white;
+        font-family: Montserrat;
+        
+ }
+
+ .footer{
+
+    text-align: center;
+    max-height: 400px;
+
+ }
+
+ .footer h1{
+
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 900;
+ }
+ .footer h2{
+
+    font-size: 35px;
+    font-family: Montserrat;
+    font-weight: 900;
+ }
+ .icons{
+
+    margin-left: 40%;
+ }
+ .icons img{
+
+   width: 80px;
+   height: 80px;
+   padding-left: 40px;
+ }
